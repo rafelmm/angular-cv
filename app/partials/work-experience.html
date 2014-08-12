@@ -1,0 +1,22 @@
+<div class="row box" ng-repeat="experience in work">
+	<div class="col-md-11 col-md-offset-1" >
+		<div class="row">
+			<div class="col-md-9">
+				<section class="text-left">
+					<h3>{{experience.titulo}}</h3>
+					<h4>{{experience.empresa}}</h4>
+					<p>{{experience.inicio}} - {{experience.fin}} <span id="currentPosition"></span></p>
+				</section>
+			</div>
+			<div class="col-md-2">
+				<span class="fa featured"><img ng-src="{{experience.logo}}" alt="{{experience.empresa}}" /></span>
+			</div>
+			<div class="col-md-9 col-md-offset-1 text-left">
+				<p ng-repeat="descripcion in experience.descripcion">{{descripcion}}</p>
+				<ul ng-show="experience.tareas">
+					<li ng-repeat="tarea in experience.tareas">{{tarea}}</li>
+				</ul>
+			</div>
+		</div>					
+	</div>
+</div>

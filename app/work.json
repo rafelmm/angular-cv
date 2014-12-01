@@ -3,23 +3,27 @@
 	 "empresa" 		: "Thinking Forward XXI",
 	 "inicio"		: "February, 1, 2013",
 	 "fin"			: "",
-	 "logo"			: "images/tf-logo-peque.png",
+	 "logo"			: "images/tf-logo.png",
 	 "descripcion"	: ["In Thinking Forward XXI I have acquired experience on Project Management. Thinking Forward XXI is a start-up so everybody in the company has management responsibilities. As this is a new enterprise it is easy to propose management aspects and implement them. I have also learned a lot about Product Development. I have been involved in a project from its Definition to the Industrial Development and Quality Assessment.", "Designed and implemented a new web application for a predictive maintenance system. The information displayed in the web application is customizable for every user so it is useful at many levels of the Maintenance Department. On the one hand it allows a more efficient organization of the maintenance tasks and, on the other, it facilitates the managers to control their employees and distribute efficiently their resources. Furthermore, it is the visible part of the whole system so it makes it easy to the Commercial Department and the Marketing Department to sell the system."],
-	 "tareas"		: []
+	 "tareas"		: ["Designed and implemented a customizable web application for predictive maintenance which has helped to improve the client satisfaction with the whole system.", 
+						"Designed algorithms for predictive maintenance.",
+						"Implementation of Windows NT Services which analyze big data and produce reports of failures.",
+						"Implantation of Scrum, an agile software development framework.",
+						"Implantation of a documentation system for software projects."]
 	},
 	{"titulo"		: "R&D Engineer",
 	 "empresa" 		: "Thinking Forward XXI",
 	 "inicio"		: "January, 1, 2011",
 	 "fin"			: "February, 1, 2013",
-	 "logo"			: "images/tf-logo-peque.png",
+	 "logo"			: "images/tf-logo.png",
 	 "descripcion"	: [],
-	 "tareas"		: [ "Definition of Specifications and Design of hardware solutions based on microcontrollers",
-					    "Prototyping of hardware solutions",
-						"Embedded C Design and Development",
-						"Design of specialized testing equipment for our products",
-						"Image processing, particularly Pattern Recognition",
-						"Windows Forms Applications Design and Development (C++)",
-						"Prepare technical documentation for the designs"]
+	 "tareas"		: [ "Definition of Specifications and Design of hardware solutions based on microcontrollers.",
+					    "Prototyping of hardware solutions.",
+						"Embedded C Design and Development.",
+						"Design of specialized testing equipment for our products.",
+						"Image processing, particularly Pattern Recognition.",
+						"Windows Forms Applications Design and Development (C++).",
+						"Prepare technical documentation for the designs."]
 	},
 	{"titulo"		: "CRM Consultant",
 	 "empresa" 		: "Indra",
@@ -27,14 +31,18 @@
 	 "fin"			: "December, 1, 2010",
 	 "logo"			: "images/indra-logo.png",
 	 "descripcion"	: ["Development of custom functionalities over the SAP\u0027s CRM (Customer Relationship Management) module. My task in this project consisted on taking the client\u0027s requirements and translating it into feasible functionalities in the CRM module of SAP. I take also part in the quality assessment of the developed applications."],
-	 "tareas"		: []
+	 "tareas"		: ["Software troubleshooting.",
+						"Quality control of custom developments."]
 	},	
 	{"titulo"		: "ABAP IV Developer",
 	 "empresa" 		: "Indra",
 	 "inicio"		: "October, 1, 2007",
 	 "fin"			: "April, 1, 2010",
 	 "logo"			: "images/indra-logo.png",
-	 "descripcion"	: ["I began to work at Indra as an ABAP Developer. After a two weeks course I got involved in a project which was at its final stage. Thanks to this I learned a lot in a  short period of time. During this three years I got experience developing in almost all SAP modules: Human Resources, Financial Accounting, Sales and Distribution, Project Planning and Material Managment. My experience in ABAP IV development goes from all kind of forms: sapscripts, smart forms and adobe forms; to web developments based on Web Dynpros and Business Server Pages (BSP). I got also experience in workflow development. In my last year at Indra I was involved in a Web Project for. The project was part of the Intranet of an important lawyer firm. The development helps the lawyers to incur hours. In this project I had the software Analyst role. In this project I defined the key aspects of the development taking into account all the client requirements."],
-	 "tareas"		: []
+	 "descripcion"	: ["I began to work at Indra as an ABAP Developer. After a two weeks course I got involved in a project which was at its final stage. Thanks to this I learned a lot in a  short period of time. During this three years I got experience developing in almost all SAP modules: Human Resources, Financial Accounting, Sales and Distribution, Project Planning and Material Managment.","My experience in ABAP IV development goes from all kind of forms: sapscripts, smart forms and adobe forms; to web developments based on Web Dynpros and Business Server Pages (BSP). I got also experience in workflow development. In my last year at Indra I was involved in the design and development of a Web Application for an important lawyer firm. In this project I had the software Analyst role. In this project I defined the key aspects of the development taking into account all the client requirements."],
+	 "tareas"		: ["Design and implementation of a Timekeeper web application with BSP",
+						"Design and implementation of Web Dynpros, AdobeForms, SmartForms and SapScript Forms.",
+						"Implementation of BADIs and User Exits.",
+						"Electronic Invoice System Design."]
 	}
 ]

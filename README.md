@@ -1,3 +1,33 @@
+Archivos necesarios para publicación:
+- public
+	- index.html
+	- work.json
+	- js
+		- app.js
+		- config.js
+		- controllers.js
+		- directives.js
+		- filters.js
+		- html5shiv.js
+		- services.js
+		- skel.min.js
+		- angular.min.js
+		- angular.route.min.js
+		- jquery.min.js
+	- css
+		- app.css
+		- font-awesome.min.css
+		- ie7.css
+		- ie8.css
+		- ie9.css
+		- skel-noscript.css
+		- style.css
+		- style-desktop.css
+	- images
+		- ...
+	- partials
+		- work-experience.html
+
 # angular-seed — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS](http://angularjs.org/) web app.

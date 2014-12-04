@@ -1,0 +1,14 @@
+[
+	{"titulo"		: "Telecomunications Engineer",
+	 "escuela" 		: "Universitat Politecnica de Catalunya",
+	 "inicio"		: "February, 1, 2013",
+	 "fin"			: "",
+	 "descripcion"	: "Education description",
+	 "cursos"		: ["Designed and implemented a customizable web application for predictive maintenance which has helped to improve the client satisfaction with the whole system.", 
+						"Designed algorithms for predictive maintenance.",
+						"Implementation of Windows NT Services which analyze big data and produce reports of failures.",
+						"Implantation of Scrum, an agile software development framework.",
+						"Implantation of a documentation system for software projects."],
+	 "proyecto"		: "bla bla bla"
+	}
+]

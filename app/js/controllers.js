@@ -9,6 +9,10 @@ angular.module('cvApp.controllers', [])
 		$http.get('work.json').success(function(data){
 			$scope.work = data;
 		});
+		$scope.education = [];
+		$http.get('education.json').success(function(data){
+			$scope.education = data;
+		});
 	}]);
 
 	

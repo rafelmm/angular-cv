@@ -1,5 +1,4 @@
 /* app css stylesheet */
-
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -31,4 +30,22 @@
 
 ul.work-tareas {
 	list-style-type: disc;
+}
+
+.row {
+	margin-bottom: 10px;
+}
+
+.article-title{
+	display:block;
+}
+
+.article-title > i{
+	float:left;
+}
+
+.article-title > span{
+	float:left;
+	margin-left: 1em;
+	line-height: 1em;
 }

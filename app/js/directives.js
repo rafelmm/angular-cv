@@ -18,4 +18,15 @@ angular.module('cvApp.directives', [])
 			templateUrl: 'partials/work-experience.html',
 			link: link
 			};
+	})
+	.directive('education', function() {
+		function link(scope, element, attrs) {
+		
+		}
+		
+		return {
+			restrict: 'E',
+			templateUrl: 'partials/education.html',
+			link: link
+			};
 	});

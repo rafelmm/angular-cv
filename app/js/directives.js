@@ -8,7 +8,7 @@ angular.module('cvApp.directives', [])
 			elm.text(version);
 		};
 	}])
-	.directive('workExperience', function() {
+	.directive('rmmWorkExperience', function() {
 		function link(scope, element, attrs) {
 			
 		}
@@ -19,7 +19,7 @@ angular.module('cvApp.directives', [])
 			link: link
 			};
 	})
-	.directive('education', function() {
+	.directive('rmmEducation', function() {
 		function link(scope, element, attrs) {
 		
 		}

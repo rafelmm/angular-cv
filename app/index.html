@@ -42,6 +42,7 @@
 		}
 
 		$(document).ready(function(){
+			
 			var d1 = new Date("February, 1, 2013");
 			var d2 = new Date();
 			var diff = inMonths(d1,d2);
@@ -83,7 +84,7 @@
 			<article class="container" id="top">
 				<div class="row">
 					<div class="4u">
-						<span class="me image image-full"><img src="images/me.png" alt="" /></span>
+						<span class="me image image-full"><img src="images/me_medium.png" alt="" /></span>
 					</div>
 					<div class="8u">
 						<header>
@@ -108,7 +109,7 @@
 							</h2>
 						</header>
 					</div>
-					<work-experience></work-experience>
+					<rmm-work-experience></rmm-work-experience>
 				</div>
 				<footer>
 					<p>See a detailed description of the projects where I have been involved</p>
@@ -129,10 +130,9 @@
 							</h2>
 						</header>
 					</div>
-					<education></education>
+					<rmm-education></rmm-education>
 				</div>
 				<footer>
-					<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
 					<a href="#contact" class="button button-big">Get in touch with me</a>
 				</footer>
 			</article>
@@ -141,34 +141,16 @@
 	<!-- Projects -->
 		<div class="wrapper wrapper-style2">
 			<article id="projects">
-				<header>
-					<h2>I design and build amazing things.</h2>
-					<span>Odio turpis amet sed consequat eget posuere consequat.</span>
-				</header>
 				<div class="container">
 					<div class="row">
-						<div class="4u">
-							<section class="box box-style1">
-								<span class="fa featured fa-comments-o"></span>
-								<h3>Consequat lorem</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="box box-style1">
-								<span class="fa featured fa-file-o"></span>
-								<h3>Lorem dolor tempus</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
-						<div class="4u">
-							<section class="box box-style1">
-								<span class="fa featured fa-thumbs-o-up"></span>
-								<h3>Feugiat posuere</h3>
-								<p>Ornare nulla proin odio consequat sapien vestibulum ipsum primis sed amet consequat lorem dolore.</p>
-							</section>
-						</div>
+						<header>
+							<h2 class="article-title">
+								<i class="fa fa-thumb-tack"></i>
+								<span>Projects</span>
+							</h2>
+						</header>
 					</div>
+					<rmm-education></rmm-education>
 				</div>
 				<footer>
 					<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>

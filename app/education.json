@@ -1,14 +1,19 @@
 [
-	{"titulo"		: "Telecomunications Engineer",
-	 "escuela" 		: "Universitat Politecnica de Catalunya",
-	 "inicio"		: "February, 1, 2013",
-	 "fin"			: "",
-	 "descripcion"	: "Education description",
-	 "cursos"		: ["Designed and implemented a customizable web application for predictive maintenance which has helped to improve the client satisfaction with the whole system.", 
-						"Designed algorithms for predictive maintenance.",
-						"Implementation of Windows NT Services which analyze big data and produce reports of failures.",
-						"Implantation of Scrum, an agile software development framework.",
-						"Implantation of a documentation system for software projects."],
-	 "proyecto"		: "bla bla bla"
+	{"titulo"		: "Telecom Engineering",
+	 "universidad" 	: "Bachelor at Universitat Politecnica de Catalunya",
+	 "escuela"		: "Telecom BCN",
+	 "logoEscuela"	: "images/logo_telecom.jpg",
+	 "logoUniversidad" : "images/upc.png",
+	 "inicio"		: "September 2002",
+	 "fin"			: "September 2010",
+	 "descripcion"	: ["After the High School I decided to continue the education in the engeenering field. I began the Telecom Engineering in Barcelona because I was interested in new technologies and because it was an emerging field.",
+					   "The bachelor’s programme in the Technical University of Catalonia is very extensive. From my point of view, this is one of the most interesting aspects of it because you learn the basis of many things. This gives the telecom students a strong learning attitude and it lets them to improve their knowledge very easily."],
+	 "cursos"		: ["Communication theory",
+					   "Radiofrequency theory",
+					   "Computer science",
+					   "Analog and digital signal processing",
+					   "Analog and digital electronics"],
+	 "proyecto"		: ["Despite it took me eight years to finish the degree, I passed all the courses in the first four and a half years. After completing the courses and before starting the thesis I started working as an ABAP programmer at Indra. It was really hard to do the thesis while working more than eight hours per day but finally I managed to do both.",
+					   "In the thesis I designed and developed a technique for software image compensation."]
 	}
 ]

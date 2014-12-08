@@ -12,11 +12,17 @@
 				<span class="fa featured text-right"><img ng-src="{{experience.logo}}" alt="{{experience.empresa}}" height="50px"/></span>
 			</div>
 			<div class="col-md-9 col-md-offset-1 text-left">
-				<p ng-repeat="descripcion in experience.descripcion">{{descripcion}}</p>
-				<h5 ng-show="experience.tareas.length>0">Tasks and Responsabilities</h5>
-				<ul class="work-tareas" ng-show="experience.tareas">
-					<li ng-repeat="tarea in experience.tareas">{{tarea}}</li>
-				</ul>
+				<div class="row">
+					<div class="col-md-12">
+						<p ng-repeat="descripcion in experience.descripcion">{{descripcion}}</p>
+						<h5 ng-show="experience.tareas.length>0">Tasks and Responsabilities</h5>
+					</div>
+					<div class="col-md-11 col-md-offset-1">
+						<ul class="work-tareas" ng-show="experience.tareas">
+							<li ng-repeat="tarea in experience.tareas">{{tarea}}</li>
+						</ul>
+					</div>
+				</div>
 			</div>
 		</div>					
 	</div>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="cvApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="cvApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="cvApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="cvApp" class="no-js"> <!--<![endif]-->
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Welcome to Rafel Mormeneo's personal page. Here you can find my resume and my contact information." />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Rafel Mormeneo's CV</title>
+	<link rel="icon" href="images/me.ico"/>
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,600,700"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/app.css"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<noscript>
+		<link rel="stylesheet" href="css/skel-noscript.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/style-desktop.css" />
+	</noscript>
+	<!--[if lte IE 9]><link rel="stylesheet" href="css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
+	<!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
+	
+	  <!-- In production use:
+		<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+	-->
+	
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="js/config.js"></script>
+	<script src="js/skel.min.js"></script>
+ 
+	<script>
+		function inMonths(d1, d2) {
+			var d1Y = d1.getFullYear();
+			var d2Y = d2.getFullYear();
+			var d1M = d1.getMonth();
+			var d2M = d2.getMonth();
+
+			return (d2M+12*d2Y)-(d1M+12*d1Y);
+		}
+
+		$(document).ready(function(){
+			
+			var d1 = new Date("February, 1, 2013");
+			var d2 = new Date();
+			var diff = inMonths(d1,d2);
+			var years = Math.floor(diff/12);
+			var months = (diff - years*12);
+
+			var currentPositionText = "";
+			if (years == 1) {
+				currentPositionText = "(" + years + " year ";
+			} else if (years > 1) {
+				currentPositionText = "(" + years + " years ";
+			}
+			if (months == 1) {
+				currentPositionText = currentPositionText + months + " month)";
+			} else if (months > 1) {
+				currentPositionText = currentPositionText + months + " months)";
+			}
+			$('#currentPosition').html(currentPositionText);
+		});
+	</script>
+		
+</head>
+<body ng-controller='MainController'>
+	<!-- Nav -->
+		<nav id="nav">
+			<ul class="container">
+				<li><a href="#top">Top</a></li>
+				<li><a href="#work">Work</a></li>
+				<li><a href="#education">Education</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+
+		
+	<!-- Home -->
+		<div class="wrapper wrapper-style1 wrapper-first">
+		
+			<article class="container" id="top">
+				<div class="row">
+					<div class="4u">
+						<span class="me image image-full"><img src="images/me_medium.png" alt="" /></span>
+					</div>
+					<div class="8u">
+						<header>
+							<h1>Hi. I'm <strong>Rafel Mormeneo</strong>.</h1>
+						</header>
+						<p>And this is my <strong>Resume</strong>. Here you will find information about my career, education and the projects where I have been involved.</p>
+						<a href="#work" class="button button-big">Learn about what I do</a>
+					</div>
+				</div>
+			</article>
+		</div>
+
+	<!-- Work -->
+		<div class="wrapper wrapper-style2">
+			<article id="work">
+				<div class="container">
+					<div class="row">
+						<header>
+							<h2 class="article-title">
+								<i class="fa fa-file-text-o"></i>
+								<span>Job experience</span>
+							</h2>
+						</header>
+					</div>
+					<rmm-work-experience></rmm-work-experience>
+				</div>
+				<footer>
+					<p>See a detailed description of the projects where I have been involved</p>
+					<a href="#projects" class="button button-big">See some of my recent work</a>
+				</footer>
+			</article>
+		</div>
+
+	<!-- Education -->
+		<div class="wrapper wrapper-style3">
+			<article id="education">
+				<div class="container">
+					<div class="row">
+						<header>
+							<h2 class="article-title">
+								<i class="fa fa-book"></i>
+								<span>Education</span>
+							</h2>
+						</header>
+					</div>
+					<rmm-education></rmm-education>
+				</div>
+				<footer>
+					<a href="#contact" class="button button-big">Get in touch with me</a>
+				</footer>
+			</article>
+		</div>
+
+	<!-- Projects -->
+		<div class="wrapper wrapper-style2">
+			<article id="projects">
+				<div class="container">
+					<div class="row">
+						<header>
+							<h2 class="article-title">
+								<i class="fa fa-clipboard"></i>
+								<span>Projects</span>
+							</h2>
+						</header>
+					</div>
+					<rmm-projects></rmm-projects>
+				</div>
+				<footer>
+					<p>Lorem ipsum dolor sit sapien vestibulum ipsum primis?</p>
+					<a href="#top" class="button button-big">Back to top</a>
+				</footer>
+			</article>
+		</div>
+		
+	<!-- Contact -->
+		<div class="wrapper wrapper-style4">
+			<article id="contact" class="container small">
+				<header>
+					<h2>Contact</h2>
+					<span>You can send me an email at <a href="mailto:rafel@mormeneo.cat?subject=Contact%20Request&body=Hello,%0D%0A%0D%0AI%20have%20seen%20your%20online%20resume%20and%20I%20would%20like%20to%20contact%20you." target="_blank">rafel@mormeneo.cat</a></span>
+				</header>
+				<div>
+					<div class="row">
+						<div class="12u">
+							<hr />
+							<h3>Or find me on...</h3>
+							<ul class="social">
+								<li class="twitter"><a href="http://twitter.com/lefar" class="fa fa-twitter"><span>Twitter</span></a></li>
+								<li class="linkedin"><a href="http://es.linkedin.com/in/rafelmm/" class="fa fa-linkedin"><span>LinkedIn</span></a></li>
+								<li class="googleplus"><a href="https://plus.google.com/u/0/102854008799091014985/posts" class="fa fa-google-plus"><span>Google+</span></a></li>
+								<li class="instagram"><a href="http://instagram.com/itsopma" class="fa fa-instagram"><span>Instagram</span></a></li>
+								<!--
+								<li class="blogger"><a href="http://rafelmm.blogspot.com.es/" class="fa fa-blogger"><span>Blogger</span></a></li>
+								<li class="rss"><a href="#" class="fa fa-rss"><span>RSS</span></a></li>
+								<li class="foursquare"><a href="#" class="fa fa-foursquare"><span>Foursquare</span></a></li>
+								<li class="skype"><a href="#" class="fa fa-skype"><span>Skype</span></a></li>
+								<li class="soundcloud"><a href="#" class="fa fa-soundcloud"><span>Soundcloud</span></a></li>
+								<li class="youtube"><a href="#" class="fa fa-youtube"><span>YouTube</span></a></li>
+								<li class="blogger"><a href="#" class="fa fa-blogger"><span>Blogger</span></a></li>
+								<li class="flickr"><a href="#" class="fa fa-flickr"><span>Flickr</span></a></li>
+								<li class="vimeo"><a href="#" class="fa fa-vimeo"><span>Vimeo</span></a></li>
+								-->
+							</ul>
+							<hr />
+						</div>
+					</div>
+				</div>
+				<footer>
+					<ul id="copyright">
+						<li>Rafel Mormeneo Melich</li>
+					</ul>
+				</footer>
+			</article>
+		</div>
+
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/services.js"></script>
+	<script src="js/controllers.js"></script>
+	<script src="js/filters.js"></script>
+	<script src="js/directives.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[
+	{"titulo"		: "SOC",
+	 "inicio"		: "January 2012",
+	 "fin"			: "Present",
+	 "descripcion"	: ["The SOC consists on an Optical CMOS Sensor that takes images of mechanical parts of a system. A microcontroller reads the images from the sensor and looks for patterns in order to validate some mechanical features of the system. Then it transmits the results to a server that stores all the data from different SOC devices."]
+	},
+	{"titulo"		: "Image compensation for video surveillance applications",
+	 "inicio"		: "February 2010",
+	 "fin"			: "October 2010",
+	 "descripcion"	: ["This project was my Thesis in the Telecommunication Engeenering Degree. Image compensation involves the reduction and elimination of vibrations in video sequences. One of the most used techniques is based on hardware image compensation. This technique requires specialized and very expensive hardware. Another technique is based on software image compensation. In my Thesis I developed a software application to perform the compensation. In this application I used image processing techniques such as feature extraction, block matching and convex optimization algorithms."]
+	},
+	{"titulo"		: "Design of a customizable web application",
+	 "inicio"		: "February 2013",
+	 "fin"			: "January 2014",
+	 "descripcion"	: ["We have designed a web application for predictive maintenance management. The information displayed in the application is customizable for every user so it is useful at many levels of the Maintenance Department. On the one hand it allows a more efficient organization of the maintenance tasks and, on the other, it facilitates the managers to control their employees and distribute efficiently their resources. Furthermore, it is the visible part of the whole system so it makes it easy to the Commercial Department and the Marketing Department to sell the system."]
+	}
+]

@@ -1,0 +1,15 @@
+<div class="row box" ng-repeat="project in projects">
+	<div class="col-md-11 col-md-offset-1" >
+		<div class="row">
+			<div class="col-md-9">
+				<section class="text-left">
+					<h3>{{project.titulo}}</h3>
+					<p>{{project.inicio}} - {{project.fin}} <span id="currentPosition"></span></p>
+				</section>
+			</div>
+			<div class="col-md-9 col-md-offset-1 text-left">
+				<p ng-repeat="descripcion in project.descripcion">{{descripcion}}</p>
+			</div>
+		</div>					
+	</div>
+</div>

@@ -46,12 +46,7 @@ Archivos necesarios para publicación:
 		- fontawesome-webfont.woff
 		- FontAwesome.otf
 	- images
-		- indra-logo.png
-		- logo_telecom.jpg
-		- me.ico
-		- me_medium.png
-		- tf-logo.png
-		- upc.png
+		- ...
 	- partials
 		- work-experience.html
 		- education.html
